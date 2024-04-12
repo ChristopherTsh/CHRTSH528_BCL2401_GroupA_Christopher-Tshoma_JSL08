@@ -20,9 +20,9 @@ How do we make this happen? We've got a cool trick up our sleeves:
 Ready to use this magic spell? Here's how:
 1. Open your JavaScript file (it's like your spellbook).
 2. Add the `BankBranch` class to your code. It's like summoning a friendly ghost.
-3. Create your branch using the `new` keyword. Pass in the branch name (like "Main Street Branch").
+3. Create your branch using the `new` keyword. Pass in the branch name (like "Main Branch").
    ```javascript
-   const branchA = new BankBranch("Main Street Branch");
+   const branchA = new BankBranch("Main Branch");
    ```
    Ta-da! You've got your very own bank branch. Now go make some financial magic! 💰🌟
 
