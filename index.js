@@ -21,11 +21,11 @@ getBranchInfo (){
 }
 
 }
-// Create an instance of BankBranch with "Main Street Branch" as branchInfo
-const branchA = new BankBranch("Main Street Branch");
+// Create an instance of BankBranch with "Branch A" as branchInfo
+const branchA = new BankBranch("Branch A");
 console.log(branchA.getBranchInfo()); // Output: Main Street Branch
-// Create another instance of BankBranch with "Second Street Branch" as branchInfo
-const branchB = new BankBranch("Second Street Branch");
+// Create another instance of BankBranch with "Branch B" as branchInfo
+const branchB = new BankBranch("Branch B");
 console.log(branchB.getBranchInfo()); // Output: Main Street Branch (since only one instance exists)
 // Check if branchA and branchB refer to the same object
 console.log(branchA === branchB);
