@@ -2,18 +2,31 @@
 
 //define a class named BankBranch 
 let bankBranchInstance = null ;
-// 2. Define a class called `BankBranch` for managing branch information.
+
 class bankbranch {
    
+constructor(bankbranch) {
 
-
-
-
-
-
-
-
+    this.branchInfo = this.branchInfo;
+    bankBranchInstance = this ;
 }
+
+return bankBranchInstance
+}
+
+getBranchInfo (){
+    return this.branchInfo;
+}
+
+const branchA = new BankBranch("Main Street Branch");
+console.log(branchA.getBranchInfo()); // Output: Main Street Branch
+
+
+const branchB = new BankBranch("Second Street Branch");
+console.log(branchB.getBranchInfo()); // Output: Main Street Branch (since only one instance exists)
+
+
+console.log(branchA === branchB);
 // 3. In the `BankBranch` class:
 //    - Create a constructor that takes `branchInfo` as a parameter.
 //    - Inside the constructor, check if the `bankBranchInstance` variable is null (indicating no instance exists).
